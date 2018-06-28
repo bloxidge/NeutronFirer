@@ -237,8 +237,9 @@ DQ
                                                                             <items>
                                                                                 <menuItem title="05 - Global Settings Request" id="znA-Qd-5eX"/>
                                                                                 <menuItem title="0A - Set Parameter" state="on" id="O5r-ow-8ZD"/>
-                                                                                <menuItem title="0B - Restore Global Settings" id="V9c-HW-huM" userLabel="3"/>
+                                                                                <menuItem title="0B - Restore Global Settings" id="V9c-HW-huM"/>
                                                                                 <menuItem title="10 - Calibration Mode" id="1tZ-wR-G4c"/>
+                                                                                <menuItem title="71 - App Tuning Request" id="SST-4C-Mnc"/>
                                                                                 <menuItem title="73 - SW Version Request" id="jhV-Jo-HB8"/>
                                                                                 <menuItem title="77 - Factory Reset (DANGER)" id="AjL-1e-TQM">
                                                                                     <attributedString key="attributedTitle"/>
