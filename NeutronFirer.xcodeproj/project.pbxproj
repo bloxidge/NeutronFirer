@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D39A0CCD20BD8A8B00637C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A0CCC20BD8A8B00637C72 /* AppDelegate.swift */; };
+		D39A0CCF20BD8A8B00637C72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A0CCE20BD8A8B00637C72 /* ViewController.swift */; };
+		D39A0CD120BD8A8D00637C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39A0CD020BD8A8D00637C72 /* Assets.xcassets */; };
+		D39A0CD420BD8A8D00637C72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39A0CD220BD8A8D00637C72 /* Main.storyboard */; };
+		D39A0CDD20BDBF4600637C72 /* MessageParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A0CDC20BDBF4600637C72 /* MessageParser.swift */; };
+		D39A0CDF20BDC42A00637C72 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A0CDE20BDC42A00637C72 /* Extensions.swift */; };
+		D39A0CE120BDC48B00637C72 /* MIDIEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39A0CE020BDC48B00637C72 /* MIDIEngine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D39A0CC920BD8A8B00637C72 /* NeutronFirer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeutronFirer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39A0CCC20BD8A8B00637C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D39A0CCE20BD8A8B00637C72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D39A0CD020BD8A8D00637C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D39A0CD320BD8A8D00637C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D39A0CD520BD8A8D00637C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39A0CD620BD8A8D00637C72 /* NeutronFirer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NeutronFirer.entitlements; sourceTree = "<group>"; };
+		D39A0CDC20BDBF4600637C72 /* MessageParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageParser.swift; sourceTree = "<group>"; };
+		D39A0CDE20BDC42A00637C72 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D39A0CE020BDC48B00637C72 /* MIDIEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIEngine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39A0CC620BD8A8B00637C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39A0CC020BD8A8B00637C72 = {
+			isa = PBXGroup;
+			children = (
+				D39A0CCB20BD8A8B00637C72 /* NeutronFirer */,
+				D39A0CCA20BD8A8B00637C72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39A0CCA20BD8A8B00637C72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39A0CC920BD8A8B00637C72 /* NeutronFirer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39A0CCB20BD8A8B00637C72 /* NeutronFirer */ = {
+			isa = PBXGroup;
+			children = (
+				D39A0CDE20BDC42A00637C72 /* Extensions.swift */,
+				D39A0CE020BDC48B00637C72 /* MIDIEngine.swift */,
+				D39A0CDC20BDBF4600637C72 /* MessageParser.swift */,
+				D39A0CCC20BD8A8B00637C72 /* AppDelegate.swift */,
+				D39A0CCE20BD8A8B00637C72 /* ViewController.swift */,
+				D39A0CD020BD8A8D00637C72 /* Assets.xcassets */,
+				D39A0CD220BD8A8D00637C72 /* Main.storyboard */,
+				D39A0CD520BD8A8D00637C72 /* Info.plist */,
+				D39A0CD620BD8A8D00637C72 /* NeutronFirer.entitlements */,
+			);
+			path = NeutronFirer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39A0CC820BD8A8B00637C72 /* NeutronFirer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39A0CD920BD8A8D00637C72 /* Build configuration list for PBXNativeTarget "NeutronFirer" */;
+			buildPhases = (
+				D39A0CC520BD8A8B00637C72 /* Sources */,
+				D39A0CC620BD8A8B00637C72 /* Frameworks */,
+				D39A0CC720BD8A8B00637C72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeutronFirer;
+			productName = SysexSender;
+			productReference = D39A0CC920BD8A8B00637C72 /* NeutronFirer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39A0CC120BD8A8B00637C72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Peter Bloxidge";
+				TargetAttributes = {
+					D39A0CC820BD8A8B00637C72 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = D39A0CC420BD8A8B00637C72 /* Build configuration list for PBXProject "NeutronFirer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D39A0CC020BD8A8B00637C72;
+			productRefGroup = D39A0CCA20BD8A8B00637C72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39A0CC820BD8A8B00637C72 /* NeutronFirer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39A0CC720BD8A8B00637C72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39A0CD120BD8A8D00637C72 /* Assets.xcassets in Resources */,
+				D39A0CD420BD8A8D00637C72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39A0CC520BD8A8B00637C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39A0CCF20BD8A8B00637C72 /* ViewController.swift in Sources */,
+				D39A0CCD20BD8A8B00637C72 /* AppDelegate.swift in Sources */,
+				D39A0CDD20BDBF4600637C72 /* MessageParser.swift in Sources */,
+				D39A0CE120BDC48B00637C72 /* MIDIEngine.swift in Sources */,
+				D39A0CDF20BDC42A00637C72 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D39A0CD220BD8A8D00637C72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39A0CD320BD8A8D00637C72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D39A0CD720BD8A8D00637C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D39A0CD820BD8A8D00637C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D39A0CDA20BD8A8D00637C72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NeutronFirer/NeutronFirer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KZ84TRLT54;
+				INFOPLIST_FILE = NeutronFirer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.music-group.NeutronFirer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D39A0CDB20BD8A8D00637C72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NeutronFirer/NeutronFirer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = KZ84TRLT54;
+				INFOPLIST_FILE = NeutronFirer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.music-group.NeutronFirer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39A0CC420BD8A8B00637C72 /* Build configuration list for PBXProject "NeutronFirer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39A0CD720BD8A8D00637C72 /* Debug */,
+				D39A0CD820BD8A8D00637C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39A0CD920BD8A8D00637C72 /* Build configuration list for PBXNativeTarget "NeutronFirer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39A0CDA20BD8A8D00637C72 /* Debug */,
+				D39A0CDB20BD8A8D00637C72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39A0CC120BD8A8B00637C72 /* Project object */;
+}
